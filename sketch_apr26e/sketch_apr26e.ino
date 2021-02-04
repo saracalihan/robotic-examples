@@ -28,7 +28,7 @@ void loop(){
   }
   if(i==4){   
       
-  char sifre[4]={'3','9','5','5'};
+  char sifre[4]={'1','2','3','4'};
   if((strncmp(sifre1,sifre,4)==0)){
     Serial.println ("onay");
   }
